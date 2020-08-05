@@ -11,5 +11,5 @@ supports only .m4a and .mp3 files
 
 Music player library credits - ngx audio player
 
-![Screenshot]
-(https://imgur.com/n2fswrc)
+![Imgur]
+(https://i.imgur.com/n2fswrc.png)
