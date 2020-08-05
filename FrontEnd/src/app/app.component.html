@@ -1,3 +1,17 @@
+<header>
+  <mat-toolbar fxLayout class='headerToolbar' color="accent">
+    <span> Music </span> <mat-icon>music_video</mat-icon> <span>Dock</span>
+
+  </mat-toolbar>
+</header>
+
 <mat-advanced-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="false"
                            muted="muted" [displayPlaylist]="msaapDisplayPlayList" [pageSizeOptions]="msaapPageSizeOptions" (trackEnded)="onEnded($event)"
                            [expanded]="true" [displayVolumeControls]="true"></mat-advanced-audio-player>
+
+<footer class="footerClass">
+  <mat-toolbar class='footerToolbar' color="accent" style="font-size: small">
+    Music player library - ngx audio player || Site created and implemented by Bala.
+  </mat-toolbar>
+
+</footer>

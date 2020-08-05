@@ -18,7 +18,7 @@ export class AppComponent  implements OnInit {
 
   msaapPlaylist: Track[] = [
     {
-      title: 'Sound Helix',
+      title: 'SoundHelix - Free Music',
       link: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
     }
   ];

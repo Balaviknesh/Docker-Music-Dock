@@ -1,0 +1,21 @@
+.headerToolbar{
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 10;
+  top: 0;
+}
+.headerToolbar:not([class*=mat-elevation-z]) {
+  box-shadow: 0 2px 10px -1px rgba(240, 163, 10, 0.81),
+  0 0 2px 0 rgb(146, 148, 149);
+}
+
+.footerClass{
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
+.footerClass:not([class*=mat-elevation-z]) {
+  box-shadow: 0 2px 10px -1px rgba(240, 163, 10, 0.81),
+  0 0 2px 0 rgb(146, 148, 149);
+}
